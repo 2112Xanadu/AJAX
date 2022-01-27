@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TV Maze</title>
+    <link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Raleway:wght@300;700&display=swap"
+        rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>Search TV Maze</h1>
+        <h2>search</h2>
+    </header>
+
+    <form action="https://api.tvmaze.com/search/shows">
+        <input type="search" name="q">
+        <input type="submit">
+    </form>
+
+    <h2>Result</h2>
+    <div id="result">
+
+    </div>
+
+    <script src="js/tvmaze.js"></script>
+</body>
+
+</html>
